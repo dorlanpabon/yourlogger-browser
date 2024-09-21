@@ -1,0 +1,56 @@
+{
+  "name": "yourlogger-browser",
+  "description": "A customizable logger with timestamp, log levels, color-coded output, IndexedDB support for saving logs, export options, and more.",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "types": "dist/yourlogger-browser.d.ts",
+  "main": "dist/yourlogger-browser.js",
+  "module": "dist/yourlogger-browser.es.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/yourlogger-browser.js",
+      "import": "./dist/yourlogger-browser.es.js",
+      "types": "./dist/yourlogger-browser.d.ts"
+    }
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "logger",
+    "indexeddb",
+    "log",
+    "web",
+    "browser",
+    "typescript",
+    "custom-logger",
+    "customizable-logger",
+    "color-coded-logger",
+    "timestamp-logger",
+    "export-logs",
+    "log-levels",
+    "logger-with-indexeddb",
+    "logger-with-timestamp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dorlanpabon/yourlogger-browser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dorlanpabon/yourlogger-browser/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  },
+  "author": {
+    "name": "Juan Bohorquez",
+    "email": "jcpboho@gmail.com",
+    "url": "https://tuyweb.com"
+  }
+}
